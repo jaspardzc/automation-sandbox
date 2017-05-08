@@ -2,6 +2,24 @@
 
 This project can be used as a template/seed project for the UI Automation E2E Testing purpose
 
+## Pre-requirements
+Make sure you have NodeJS installed locally, you can verify by type following command
+`npm --version`
+`node --version`
+
+## Environment Setup
+
+Now installing the protractor and webdriver-manager
+```
+npm install -g protractor
+webdriver-manager update   => connecting to guest network if you have error when running this command
+```
+
+## Install Dependencies
+
+Running the following command at where the package.json lies
+`npm install`
+
 ## Development server
 
 Run `npm run server` to start the selenium webdriver-manager. Navigate to `http://localhost:4444/`. You should be able to see the selenium standlone server homepage.
